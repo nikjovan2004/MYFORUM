@@ -1,110 +1,62 @@
-# README
+# MyForum
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+MyForum is a forum-type website where users can create accounts, make posts, and comment on other users' posts. The website is built using Ruby 3.2.1 and Rails 7.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+1. Clone the repository to your local machine:
 
-* System dependencies
+   ```
+   git clone https://github.com/<your-username>/myforum.git
+   ```
 
-* Configuration
+2. Install the required gems:
 
-* Database creation
+   ```
+   bundle install
+   ```
 
-* Database initialization
+3. Set up the database:
 
-* How to run the test suite
+   ```
+   rails db:setup
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Run the application:
 
-* Deployment instructions
+   ```
+   rails server
+   ```
 
-* ...
+5. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-# Project
+## Usage
 
-[project.com](https://project.com)
+### Creating an Account
 
-## Install
+To create an account on MyForum, click the "Sign Up" link in the navigation bar and fill out the registration form with your desired username, email, and password.
 
-### Clone the repository
+### Creating a Post
 
-```shell
-git clone git@github.com:juliendargelos/project.git
-cd project
-```
+To create a post, click the "New Post" button on the homepage or in the navigation bar. You will be taken to a form where you can enter the title and content of your post. Click the "Create Post" button to submit your post.
 
-### Check your Ruby version
+### Editing a Post
 
-```shell
-ruby -v
-```
+To edit a post, click the "Edit" button next to the post you wish to edit. You will be taken to a form where you can update the title and content of your post. Click the "Update Post" button to save your changes.
 
-The ouput should start with something like `ruby 2.5.1`
+### Deleting a Post
 
-If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
+To delete a post, click the "Delete" button next to the post you wish to delete. Confirm that you want to delete the post when prompted.
 
-```shell
-rbenv install 2.5.1
-```
+### Commenting on a Post
 
-### Install dependencies
+To comment on a post, navigate to the post you wish to comment on and scroll to the bottom of the page. Enter your comment in the form and click the "Comment" button to submit your comment.
 
-Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
+## Contributing
 
-```shell
-bundle && yarn
-```
+If you would like to contribute to MyForum, please fork the repository and submit a pull request with your changes. Be sure to follow the [Ruby Style Guide](https://github.com/rubocop/ruby-style-guide) when writing code.
 
-### Set environment variables
+## License
 
-Using [Figaro](https://github.com/laserlemon/figaro):
+MyForum is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-See [config/application.yml.sample](https://github.com/juliendargelos/project/blob/master/config/application.yml.sample) and contact the developer: [contact@juliendargelos.com](mailto:contact@juliendargelos.com) (sensitive data).
-
-### Initialize the database
-
-```shell
-rails db:create db:migrate db:seed
-```
-
-### Add heroku remotes
-
-Using [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli):
-
-```shell
-heroku git:remote -a project
-heroku git:remote --remote heroku-staging -a project-staging
-```
-
-## Serve
-
-```shell
-rails s
-```
-
-## Deploy
-
-### With Heroku pipeline (recommended)
-
-Push to Heroku staging remote:
-
-```shell
-git push heroku-staging
-```
-
-Go to the Heroku Dashboard and [promote the app to production](https://devcenter.heroku.com/articles/pipelines) or use Heroku CLI:
-
-```shell
-heroku pipelines:promote -a project-staging
-```
-
-### Directly to production (not recommended)
-
-Push to Heroku production remote:
-
-```shell
-git push heroku
-```
