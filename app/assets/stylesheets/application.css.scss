@@ -16,7 +16,7 @@
 
 body {
 	font-family: 'Lato', sans-serif;
-	background: #EDEFF0;
+	background: #1b1b1b;
 }
  
 .wrapper {
@@ -37,7 +37,7 @@ body {
 .main_header {
 	width: 100%;
 	margin: 0 auto;
-	background: white;
+	background: #1b1b1b;
 	#logo {
 		float: left;
 		a {
@@ -46,17 +46,17 @@ body {
 			letter-spacing: -1px;
 			font-size: 1.2rem;
 			text-decoration: none;
-			color: #397CAC;
+			color: #73AD21;
 		}
 	}
 	#buttons {
 		float: right;
 		a {
 			line-height: 60px;
-			background: #397CAC;
+			background: #73AD21;
 			padding: .5em 1em;
 			border-radius: 0.2em;
-			color: white;
+			color: #1b1b1b;
 			text-decoration: none;
 			font-weight: 100;
 		}
@@ -70,11 +70,11 @@ body {
 	.post {
 		margin: 1em 0;
 		padding: 1em 0;
-		border-bottom: 1px solid #D1d1d1;
+		border-bottom: 1px solid #1b1b1b;
 		.title {
 			margin: 0;
 			a {
-				color: #397CAC;
+				color: #73AD21;
 				text-decoration: none;
 				font-weight: 100;
 				font-size: 1.25rem;
@@ -83,14 +83,15 @@ body {
 		.date {
 			margin-top: .25rem;
 			font-size: 0.9rem;
-			color: #B2BAC2;
+			color: #73AD21;
 		}
 	}
+	  
 }
 
 .button {
-	color: #397CAC;
-	border: 1px solid #397CAC;
+	color: #73AD21;
+	border: 1px solid #73AD21;
 	padding: .5em 1em;
 	border-radius: 0.2em;
 	text-decoration: none; 
@@ -98,13 +99,13 @@ body {
 }
 
 #post_content {
-	background: white;
+	background: #ffffff;
 	padding: 2em 5%;
 	border-radius: .5em;
 	h1 {
 		font-weight: 100;
 		font-size: 2em;
-		color: #397CAC;
+		color: #73AD21;
 		margin-top: 0;
 	}
 	p {
@@ -113,9 +114,10 @@ body {
 		line-height: 1.5;
 		font-size: 100;
 	}
+	
 	#comments {
 		.comment {
-			border-bottom: 1px solid #d1d1d1;
+			border-bottom: 1px solid #1b1b1b;
 			padding-bottom: 1em;
 			margin-bottom: 1em;
 			.content {
@@ -129,8 +131,8 @@ body {
 				text-align: right;
 				padding-top: 1.5em;
 				 a {
-					color: #397CAC;
-					border: 1px solid #397CAC;
+					color: #73AD21;
+					border: 1px solid #73AD21;
 					padding: .5em 1em;
 					border-radius: 0.2em;
 					text-decoration: none; 
@@ -142,14 +144,14 @@ body {
 				padding: 0;
 			}
 			.comment_author {
-				color: #397CAC;
+				color: #73AD21;
 				margin-top: 0.5rem; 
 				font-size: 0.6rem;
 				font-weight: 700;
 			}
 		}
 		input[type="submit"] {
-			background: #397CAC;
+			background: #73AD21;
 			border: none;
 			color: white;
 			font-weight: 100;
@@ -165,4 +167,5 @@ body {
 		}
 	}
 }
+
 
