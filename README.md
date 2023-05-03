@@ -2,12 +2,16 @@
 
 MyForum is a forum-type website where users can create accounts, make posts, and comment on other users' posts. The website is built using Ruby 3.2.1 and Rails 7.
 
+Link to website:
+
 ## 📝 Table of Contents
 - [MyForum](#myforum)
 - [Tools](#tools)
 - [Installation](#installation)
 - [Usage of site](#usage)
+- [Image of site](#img)
 - [Authors](#authors)
+
 
 
 # Tools <a name = "tools"></a>
@@ -65,6 +69,10 @@ To delete a post, click the "Delete" button next to the post you wish to delete.
 ### Commenting on a Post
 
 To comment on a post, navigate to the post you wish to comment on and scroll to the bottom of the page. Enter your comment in the form and click the "Comment" button to submit your comment.
+
+## Image of site <a name = "img"></a>
+
+![Screenshot_1](https://user-images.githubusercontent.com/59827868/235994912-b50243fc-d62e-493e-8b3a-84dc5e0a5b35.png)
 
 ## Authors <a name = "authors"></a>
 
