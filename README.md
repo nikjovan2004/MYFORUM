@@ -1,13 +1,27 @@
-# MyForum
+# MyForum <a name = "myforum"></a>
 
 MyForum is a forum-type website where users can create accounts, make posts, and comment on other users' posts. The website is built using Ruby 3.2.1 and Rails 7.
 
-## Installation
+## 📝 Table of Contents
+- [MyForum](#myforum)
+- [Tools](#tools)
+- [Installation](#installation)
+- [Usage of site](#usage)
+- [Authors](#authors)
+
+
+# Tools <a name = "tools"></a>
+- Ruby 3.2.1
+- Rails 7.0.4
+- Visual Studio Code 
+
+
+## Installation <a name = "installation"></a>
 
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/<your-username>/myforum.git
+   git clone https://github.com/nikjovan2004/myforum.git
    ```
 
 2. Install the required gems:
@@ -30,7 +44,7 @@ MyForum is a forum-type website where users can create accounts, make posts, and
 
 5. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-## Usage
+## Usage of site <a name = "usage"></a>
 
 ### Creating an Account
 
@@ -52,11 +66,12 @@ To delete a post, click the "Delete" button next to the post you wish to delete.
 
 To comment on a post, navigate to the post you wish to comment on and scroll to the bottom of the page. Enter your comment in the form and click the "Comment" button to submit your comment.
 
-## Contributing
+## Authors <a name = "authors"></a>
 
-If you would like to contribute to MyForum, please fork the repository and submit a pull request with your changes. Be sure to follow the [Ruby Style Guide](https://github.com/rubocop/ruby-style-guide) when writing code.
+Hello! My name is Nik Jovan and I am the author of this site. This is  my first real solo project using Ruby on Rails. I proved to be quite a challenge to learn this new tool. But I did somewhat enjoy the experience, despite my many problems with Postgresql.
 
-## License
 
-MyForum is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+
 
