@@ -33,7 +33,7 @@ gem "jbuilder"
 
 gem 'sass-rails', '~> 6.0'
 
-gem 'uglifier', '>= 4.2.0'
+gem 'uglifier', '>= 1.3.0'
 
 gem 'coffee-rails', '~> 5.0'
 

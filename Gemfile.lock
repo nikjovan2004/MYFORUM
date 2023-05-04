@@ -314,7 +314,7 @@ DEPENDENCIES
   turbo-rails
   turbolinks (~> 5)
   tzinfo-data
-  uglifier
+  uglifier (>= 4.2.0)
   web-console
   webdrivers
 
