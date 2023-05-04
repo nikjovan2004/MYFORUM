@@ -35,7 +35,6 @@ class PostsController < ApplicationController
 	end
 
 	def destroy
-		@post.comments.destroy_all # delete all associated comments first
 		@post.destroy # delete the post
 		redirect_to root_path
 	end
