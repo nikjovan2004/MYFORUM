@@ -1,4 +1,5 @@
 = simple_form_for @post do |f|
   = f.input :title
-  = f.input :content
+  = f.text_area :content, class: "tinymce", rows: 20
   = f.submit
+= javascript_include_tag 'tinymce_init'
