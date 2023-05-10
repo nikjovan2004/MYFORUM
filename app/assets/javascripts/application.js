@@ -14,5 +14,5 @@
 //= require turbolinks
 //= require tinymce
 //= require_tree .
-//= require terser
+//= require uglifier
 
